@@ -1,0 +1,315 @@
+html{
+    scroll-behavior: smooth;
+}
+.navbar {
+    box-shadow:0px 0px 6px 0px #8b8b8b;
+}
+.c-image1{
+    background: radial-gradient(rgba(0, 0, 0, 0.555),rgba(0, 0, 0, 0.555)),url("image/slider1.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 450px;
+    background-position:center;
+}
+.c-image2{
+    background: radial-gradient(rgba(0, 0, 0, 0.555),rgba(0, 0, 0, 0.555)),url("image/slider2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 450px;
+    background-position:center;
+}
+.c-image3{
+    background: radial-gradient(rgba(0, 0, 0, 0.555),rgba(0, 0, 0, 0.555)),url("image/slider3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 450px;
+    background-position:center;
+}
+
+/* about section started here */
+section#carouselSec {
+    margin-top: 68px;
+    /* z-index: -15; */
+}
+.aboutBox p{
+    color: #535353e0;
+}
+p.about-desc {
+    font-style: italic;
+}
+.about-h{
+    color: #000000;
+}
+
+.about-h:hover{
+    text-decoration: none;
+    color: #6b6bb6!important;
+}
+.aboutBox {
+    box-shadow: 0px 0px 8px 1px #d9d9d9;
+}
+/* about section end here */
+/* after about section */
+#about-after p {
+    color: #535353e0;
+}
+
+
+/* card section start here */
+#cardSection{
+    background: #f5f9fc;
+}
+    #cardSection .card{
+        box-shadow: 0px 0px 8px 1px #d9d9d9;
+    }
+
+/* service section start here */
+.serviceBox .card{
+    border:0px;
+}
+
+.card span{
+    transition:1s;    
+}
+.card:hover span {
+    box-shadow: 0px 0px 23px 3px #0079ff59;
+}
+.serviceBox a{
+    text-decoration: none;
+    color:black;
+    transition:.4s;
+    margin-top:20px!important;
+}
+.serviceIcon{
+    margin:20px 0px!important;
+}
+.serviceBox a:hover {
+    text-decoration: none;
+    color:#007bff;
+}
+hr{
+    width:20%;
+    height:1px;
+    background:#007bff;
+
+}
+.serviceIcon {
+    box-shadow: 0px 0px 8px 1px #d9d9d9;
+    padding: 0px 18px;
+    padding-top: 30px;
+    padding-bottom: 17px;
+    border-radius: 100%;
+}
+.serviceIcon i{
+    margin:0px;
+    padding:0px;
+}
+
+/*------------------------------
+portfolio section is started here
+------------------------------- */
+#portfolio{
+    background:#f5f9fc;
+}
+/* .nav-pills .nav-link{
+    background: white;;
+} */
+.nav-pills .nav-link:hover{
+    background: #007bff;
+    color:white;
+}
+.tab-image{
+    overflow:hidden;
+    margin: 12px 0px;
+    position:relative;
+}
+.tab-image:hover img{
+    transform:scale(1.1);
+}
+.tab-image img{
+    transition:.4s;
+}
+.tab-info{
+    position:absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    color: white;
+    background: rgba(31, 53, 72, 0.6);
+    opacity:0;
+    transition:.4s;
+}
+.tab-info:hover{
+    opacity:1;
+}
+.tab-info:hover .tab-image img{
+    transform:scale(1.1);
+}
+.tab-info:hover .tab-icon-and-text{
+    transform:translateY(0px);
+}
+.tab-icon-and-text {
+    transform: translateY(-32px);
+    transition:.4s;
+}
+
+.tab-icon-and-text a {
+    background: white;
+    border-radius: 100%;
+    padding: 4px 6px;
+    transition:.4s;
+}
+.tab-icon-and-text a:hover{
+    background: #007bff;
+    color:white;
+}
+
+/* -------------------------
+---------team section------------
+---------------------------- */
+.teamBox{
+    position:relative;
+    margin-bottom:60px;
+}
+.teamInfo{
+    background:linear-gradient(360deg, #5c768d 0%, rgba(92, 118, 141, 0.9) 35%, rgba(140, 167, 191, 0.8) 100%);
+    position:absolute;
+    top:70%;
+    left:7%;
+    right:7%;
+    bottom:-15%;
+    display:flex;
+    flex-direction:column;
+    align-self:center;
+    justify-content:center;
+}
+.teamImage{
+    overflow:hidden;
+}
+.teamBox img{
+    transition:.4s;
+}
+.teamBox:hover img{
+    transform:scale(1.1);
+}
+/* -------------------------
+- faq section started here
+---------------------------- */
+#faqSection{
+    background: #f5f9fc;
+}
+
+.contact-icon{
+    border: 2px dotted #007bff56;
+    width: 50px;
+    height: 50px;
+    padding-top: 7px;
+    border-radius: 100%;
+    
+}
+
+.cardContact{
+    box-shadow: 0px 0px 8px 1px #d9d9d9;
+    border: none !important;
+}
+
+.form{
+    box-shadow: 0px 0px 8px 1px #d9d9d9;
+    border-radius:10px;
+}
+
+
+/* --------------------
+-----footer started ----- 
+-----------------------*/
+#mamba-footer{
+    background: #5c768d;
+}
+.footer-icons a{
+    padding:8px 12px;
+    background: #768fa6;
+    border-radius:100%;
+    margin:0px 1px;
+    transition:.4s;
+}
+.footer-icons a:hover{
+    background: #007bff;
+}
+.footer-icons .fb{
+    padding:8px 14px;
+}
+.footer-link a{
+    transition:.3s;
+}
+.footer-link a i{
+    color:#9eccf4!important;
+}    
+.footer-link a:hover{
+    text-decoration: none;
+    color:#9eccf4!important;
+}
+.sunscribe-box {
+    width:80%;
+    height: 48px;
+    padding: 2px 10px;
+    outline: none;
+    position:relative;
+}
+.sunscribe-btn {
+    position: absolute;
+    right: 4%;
+    bottom: 13%;
+    left: 72%;
+    top: 63%;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+
+hr.f-hr {
+    width: 100%;
+    background: #829ab0;
+    height: 0px;
+}
+
+.up-indicator{
+    position:fixed;
+    bottom:15px;
+    right:15px;
+    opacity:.6;
+}
+/* media sscrenn for 480px */
+@media(max-width:769px){
+    #about-after .col-md-4{
+        border:0px!important;
+        border-bottom:1px solid #007bff!important;
+    }
+    .teamBox{margin-bottom:90px;}   
+    .sunscribe-btn {
+        position: absolute;
+        right: 4%;
+        bottom: 9%;
+        left: 65%;
+        top: 66%;
+    } 
+}
+@media(max-width:480px){
+    .carousel-caption h1{
+        font-size:2rem;
+    }
+    .carousel-caption p{
+        font-size:1rem!important;
+    }
+    .teamBox{margin-bottom:70px;}
+    .sunscribe-btn {
+        left: 57%;
+    } 
+}
